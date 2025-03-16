@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://elysia-ai.onrender.com/predict"
 st.set_page_config(page_title="Elysia AI - Emotion Chat", page_icon="💬", layout="wide")
 
 st.markdown("""
